@@ -1,4 +1,7 @@
 #!/bin/sh
+
+## RUN FILE AFTER STARTING DOCKER CONTAINER ( Wait for all 3 containers to run successfully)
+
 echo "Running initialization script..."
 
 # Execute your MongoDB setup command
