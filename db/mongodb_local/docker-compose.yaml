@@ -1,7 +1,7 @@
 version: '3'
 services:
   mongo:
-    container_name: mongo
+    container_name: mongo_local
     image: mongo:latest
     volumes:
       - ./dockerdata/db:/data/db
