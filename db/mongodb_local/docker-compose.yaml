@@ -3,6 +3,7 @@ services:
   mongo:
     container_name: mongo_local
     image: mongo:latest
+    # image: mongo:7.0.4
     volumes:
       - ./dockerdata/db:/data/db
     ports:
